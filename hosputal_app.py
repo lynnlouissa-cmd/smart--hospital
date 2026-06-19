@@ -56,7 +56,7 @@ hr_map = bundle['hr_map']
 dur_map = bundle['dur_map']
 cc_map = bundle['cc_mc']
 
-DEPT INFO = {
+DEPT_INFO = {
     'Respiratory Madicine': {
         'icon':'🫁', 'color': '#0284c7', 'bg':'#e0f2', 'border':'#7dd3fc',
         'desc':'Specialises in conditions affecting the lungs and airways',
