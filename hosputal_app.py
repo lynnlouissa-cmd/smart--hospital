@@ -39,7 +39,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-@st.cacha_resource
+@st.cache_resource
 def load_model1():
     with open('hospital_model.pkl', 'rb') as f:
         return pickle.load(f)
